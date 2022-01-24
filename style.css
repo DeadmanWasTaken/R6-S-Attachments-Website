@@ -1,0 +1,38 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Segoe UI';
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Style the header */
+header {
+    background-color: rgba(99, 99, 99, 0.5);
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Segoe UI';
+    color: white;
+}
+
+body {
+    background: url(R6Background.png);
+}
+
+.imageresize {
+    width: 409px;
+    height: 245px;
+}
